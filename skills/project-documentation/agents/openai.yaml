@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Documentation"
+  short_description: "Maintain project docs with clear defaults and evidence"
+  default_prompt: "Use $project-documentation to maintain or establish project documentation, following existing conventions and using the default documentation standard where they are missing."

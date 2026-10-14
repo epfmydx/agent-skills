@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Analysis"
+  short_description: "Clarify business rules, scope, and acceptance criteria"
+  default_prompt: "Use $business-analysis to clarify this request, distinguish accepted rules from assumptions, and define proportionate acceptance criteria and unresolved decisions."

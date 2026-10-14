@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Design Guide"
+  short_description: "Design task flows, interactions, and accessible interfaces"
+  default_prompt: "Use $ui-ux-design-guide to design or review this interface within its existing product conventions, covering important states, accessibility, and testable acceptance criteria."

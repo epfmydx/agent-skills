@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Dev Team"
+  short_description: "Coordinate analysis, development, design, and review"
+  default_prompt: "Use $codex-dev-team to complete this development task with business analysis where needed, bounded workers where useful, relevant UI/UX checks, independent review, and documentation verification."
