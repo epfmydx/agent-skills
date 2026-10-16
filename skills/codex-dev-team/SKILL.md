@@ -29,6 +29,7 @@ These are workflow defaults, not measured quality or cost guarantees. Honor expl
 | Substantive implementation, debugging, investigation, or documentation synthesis | Latest available Sol | `medium`; `high` for difficult logic, debugging, or refactors |
 | Business analysis, requirements discovery, or rule clarification | Latest available Sol | `medium`; `high` for complex rules, conflicting requirements, or consequential workflows |
 | UI/UX planning or interaction design | Latest available Sol | `medium`; `high` for complex workflows; use the independent-review row for separate usability review |
+| Presentation strategy, storyboarding, or substantive slide writing | Latest available Sol | `medium`; `high` for conflicting evidence, difficult audience tradeoffs, or consequential claims |
 | Independent review | Fresh latest available Sol | `high`; `xhigh` for subtle security, concurrency, or other consequential risks |
 | Bounded coding, regression cases, fixtures, or reproductions with clear acceptance | Latest available Luna | `high` |
 | Narrow extraction, inventories, simple summaries, or mechanical transformations | Latest available Luna | `low` (Light in some clients) |
@@ -77,6 +78,14 @@ For new interfaces, material workflow changes, or requested usability reviews, r
 - The lead can handle design alongside implementation. Delegate a bounded UI/UX assignment only when useful, using the role table; this is a responsibility, not a permanent extra worker. Use an available frontend or implementation skill when relevant, following the companion's collaboration guidance when available.
 - Before completion, review affected flows, errors/recovery, responsive behavior, and accessibility against the agreed criteria. Include material UI/UX risks in independent review. Distinguish screenshot inspection from tested interactions and actual browser/device or assistive-technology acceptance; report untested behavior.
 - Capture accepted design decisions and user-facing behavior through Project Documentation where they affect maintained guides. Keep model routing here and detailed design guidance in the companion.
+
+## Presentations when communication is a deliverable
+
+When the task includes a presentation, proposal deck, demo narrative, or presentation review, read the available `presentation-strategy` companion. Use its audience, purpose, delivery-mode, evidence, and writing checks. For deck creation or editing, also use an available presentation-authoring skill for the file, rendering, and delivery workflow. If a companion is unavailable, disclose that and still perform the task's relevant checks within available capabilities.
+
+- The lead can handle a small presentation directly or delegate a bounded strategy, writing, design, or review assignment using the role table. These are responsibilities, not a fixed team. Business analysis supplies accepted requirements and evidence; presentation strategy shapes how the audience understands or uses them.
+- Preserve the requested format, template, slide count, and task mode. Do not turn an outline request into deck production, or a development task into an unrequested presentation.
+- Review the argument, source support, audience fit, and actual rendered artifact where applicable. Include likely objections, notes, timing, or a readable companion only when useful and within scope. Distinguish slide inspection and rehearsal from actual audience acceptance.
 
 ## Documentation is part of completion
 

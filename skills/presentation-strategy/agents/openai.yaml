@@ -1,0 +1,4 @@
+interface:
+  display_name: "Presentation Strategy & Storytelling"
+  short_description: "Shape presentations for their audience and purpose"
+  default_prompt: "Use $presentation-strategy to plan, write, or review this presentation for its audience, purpose, evidence, and delivery setting."
