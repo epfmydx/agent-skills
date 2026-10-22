@@ -18,6 +18,14 @@ Follow explicit user and repository requirements, existing product conventions, 
 
 For example, an implementation skill may favor a spacious promotional layout while the task is a dense operational screen. Keep the information and controls needed for repeated work, then use the skill's relevant visual techniques within that constraint. Preserve the user's chosen brand and platform.
 
+## Preserve a selected reference
+
+Identify the selected artifact and version from the request or available evidence: for example, a design file, browser prototype, component demo, or captured screen. Inspect the accessible actual artifact, including relevant states and assets, rather than relying only on a prose summary. Record which source/version governs the requested appearance and behavior. If source and screenshot disagree, use the user's specified authority; otherwise surface a material disagreement and resolve which version applies before changing the affected decision. Do not silently combine conflicting versions.
+
+Within the accepted scope, the selected reference takes precedence over optional aesthetic defaults from other skills. Preserve explicit user and repository requirements and applicable accessibility constraints. Surface material conflicts and the smallest necessary adaptation; do not use a port as an opportunity to redesign the approved direction.
+
+When moving a prototype into the product, preserve compatible layout, styles, assets, and motion. Adapt architecture, component boundaries, and data integration to the production stack. Inspect sources of drift such as CSS resets, fonts and weights, tokens, container widths, inherited styles, and existing components before replacing the reference's design choices. Mock interactions and data illustrate intent; they do not establish business rules or permission policy. Use accepted product rules for those decisions. For unspecified states, adapt existing conventions and state relevant assumptions.
+
 ## Keep the handoff concrete
 
 Pass the task, intended people, accepted scope, relevant states, design-system constraints, and observable acceptance criteria. Include unresolved assumptions and evidence limits. Evaluate the implemented flow against the same criteria, including applicable accessibility and visual checks.

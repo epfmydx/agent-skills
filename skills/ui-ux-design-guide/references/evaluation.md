@@ -41,6 +41,14 @@ Before release or a “verified” claim:
 
 These gates scale to scope. A one-button fix may need just that button's states and the affected task. Do not demand a full redesign, research program, or deployment for an isolated recommendation.
 
+## Verify selected-reference fidelity
+
+Render the integrated interface in the actual application and compare it with the same selected reference/version under equivalent viewport, theme, content, interaction state, and loaded fonts. Inspect concrete discrepancies such as geometry, spacing, typography, color, and assets; exercise relevant transitions or inspect recordings for motion. When implementation is authorized, repair unintended differences and render again; for a review-only request, report the needed repairs. Record necessary adaptations and remaining differences. If repairs repeat without progress, reassess the cause and report the unresolved issue instead of continuing an unbounded loop. A source-code review or standalone prototype render alone does not verify integration fidelity.
+
+Keep the selected reference as the baseline. Never automatically overwrite it with the implementation to make a comparison pass. Use task-appropriate visual judgment and any available comparison tools; no universal similarity threshold establishes acceptance, and no new tool or full design package is required for a small change.
+
+Report fidelity separately from functional, accessibility, and real-data verification. If the source or browser is unavailable, name the missing evidence, mark the affected fidelity checks unverified, and continue other supported work. State the environments and states actually inspected; one browser viewport does not establish full device acceptance.
+
 ## Template: design brief
 
 Product or feature:

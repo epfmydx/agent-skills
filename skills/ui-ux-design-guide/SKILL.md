@@ -24,7 +24,9 @@ When another design or implementation skill is active, read [collaboration guida
 
 ## Select the relevant depth
 
-For a narrow change, inspect its affected workflow and states, make the smallest useful recommendation, and verify the relevant quality gates. For a new product or substantive redesign, use the workflow reference and build a coherent end-to-end slice before expanding.
+Infer the work mode for the affected scope from the request: reproduce a selected reference, refine an existing interface, or create a new direction. Reproduction preserves the selected reference; refinement preserves unaffected decisions. Do not ask a mode question when intent is clear. For a narrow change, inspect its affected workflow and states, make the smallest useful recommendation, and verify the relevant quality gates. For a new product or substantive redesign, use the workflow reference and build a coherent end-to-end slice before expanding.
+
+When a UI reference is selected, read [collaboration guidance](references/collaboration.md) for source authority and faithful integration, then use the [evaluation guidance](references/evaluation.md) to compare the actual implementation with that reference. Scale both to the requested scope.
 
 Read only the references needed:
 - [Workflow design](references/workflow-design.md): problem framing, navigation, task flows, states, forms, complex work, and AI interactions.

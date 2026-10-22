@@ -304,6 +304,14 @@ Before release or a “verified” claim:
 
 These gates scale to scope. A one-button fix may need just that button's states and the affected task. Do not demand a full redesign, research program, or deployment for an isolated recommendation.
 
+### Verify selected-reference fidelity
+
+Render the integrated interface in the actual application and compare it with the same selected reference/version under equivalent viewport, theme, content, interaction state, and loaded fonts. Inspect concrete discrepancies such as geometry, spacing, typography, color, and assets; exercise relevant transitions or inspect recordings for motion. When implementation is authorized, repair unintended differences and render again; for a review-only request, report the needed repairs. Record necessary adaptations and remaining differences. If repairs repeat without progress, reassess the cause and report the unresolved issue instead of continuing an unbounded loop. A source-code review or standalone prototype render alone does not verify integration fidelity.
+
+Keep the selected reference as the baseline. Never automatically overwrite it with the implementation to make a comparison pass. Use task-appropriate visual judgment and any available comparison tools; no universal similarity threshold establishes acceptance, and no new tool or full design package is required for a small change.
+
+Report fidelity separately from functional, accessibility, and real-data verification. If the source or browser is unavailable, name the missing evidence, mark the affected fidelity checks unverified, and continue other supported work. State the environments and states actually inspected; one browser viewport does not establish full device acceptance.
+
 ### Template: design brief
 
 Product or feature:
@@ -421,6 +429,11 @@ Better decision: distinguish draft from approved content, show meaningful change
 Weak direction: add translucent surfaces to every panel after seeing an award winner.
 Better decision: begin with supported system components, keep content readable, and customize only where the task benefits. Check current HIG and target SDK behavior. Assess reduced transparency and large text rather than judging only a promotional screenshot.
 
+### Selected prototype in an existing application
+
+Weak direction: rebuild a selected browser prototype with the application's usual cards and spacing, then call it complete because the controls work.
+Better decision: inspect the selected version, preserve its compatible composition, typography, assets, and motion while integrating real components and data. Check the app's reset, font loading, tokens, and container styles when the result drifts. Compare the integrated screen with the reference at an equivalent viewport and state, repair discrepancies, and render again. Record any required accessibility adaptation and verify functionality separately. Use accepted permissions rather than treating a mock enabled button as permission policy.
+
 ### Invocation examples
 
 “Use $ui-ux-design-guide to review this checkout flow. I only want the three most consequential usability issues. Keep the brand and layout unless the evidence calls for a change.”
@@ -491,6 +504,16 @@ For each example, ask: What exactly is verified? What mechanism might transfer? 
 
 Do not describe “2025/2026 design” as a single style. The reviewed examples span cultural discovery, urgent information, enterprise infrastructure, laboratory workflows, and native utilities. Their useful common ground is purposeful execution, not a mandatory palette, font, corner radius, animation, or material.
 
+### Design-fidelity sources
+
+Selected sources reviewed 2026-10-22; this does not refresh the award snapshot above.
+
+- [OpenAI, frontend designs](https://learn.chatgpt.com/use-cases/frontend-designs): supports comparing actual browser output with the reference and using existing components and tokens. This is practical guidance, not a measured fidelity guarantee.
+- [Playwright, visual comparisons](https://playwright.dev/docs/test-snapshots): documents screenshot baseline comparison under the same environment. A regression tool can detect differences; it does not prove the target baseline is correct.
+- [1D-Bench, version 3](https://arxiv.org/html/2602.18548v3), revised 2026-07-15: iterative feedback generally improves rendering success and often visual similarity on its fixed e-commerce React benchmark. It does not establish universal gains, accessibility, or production readiness.
+
+The selected-reference authority, integration, and repair workflow in this guide is original synthesis informed by these sources, not a prescribed toolchain or a claim of benchmark-level results on other tasks.
+
 ### Primary guidance used elsewhere in this guide
 
 Agent-interaction refresh, 2026-10-14:
@@ -530,6 +553,14 @@ These responsibilities can be performed by one agent. Inspect the actual skills 
 Follow explicit user and repository requirements, existing product conventions, and relevant task/accessibility constraints before optional style defaults. Apply a specialized skill within its actual scope. When requirements conflict materially, explain the conflict and resolve it with the appropriate owner; do not silently replace an approved direction or ignore a required constraint.
 
 For example, an implementation skill may favor a spacious promotional layout while the task is a dense operational screen. Keep the information and controls needed for repeated work, then use the skill's relevant visual techniques within that constraint. Preserve the user's chosen brand and platform.
+
+### Preserve a selected reference
+
+Identify the selected artifact and version from the request or available evidence: for example, a design file, browser prototype, component demo, or captured screen. Inspect the accessible actual artifact, including relevant states and assets, rather than relying only on a prose summary. Record which source/version governs the requested appearance and behavior. If source and screenshot disagree, use the user's specified authority; otherwise surface a material disagreement and resolve which version applies before changing the affected decision. Do not silently combine conflicting versions.
+
+Within the accepted scope, the selected reference takes precedence over optional aesthetic defaults from other skills. Preserve explicit user and repository requirements and applicable accessibility constraints. Surface material conflicts and the smallest necessary adaptation; do not use a port as an opportunity to redesign the approved direction.
+
+When moving a prototype into the product, preserve compatible layout, styles, assets, and motion. Adapt architecture, component boundaries, and data integration to the production stack. Inspect sources of drift such as CSS resets, fonts and weights, tokens, container widths, inherited styles, and existing components before replacing the reference's design choices. Mock interactions and data illustrate intent; they do not establish business rules or permission policy. Use accepted product rules for those decisions. For unspecified states, adapt existing conventions and state relevant assumptions.
 
 ### Keep the handoff concrete
 

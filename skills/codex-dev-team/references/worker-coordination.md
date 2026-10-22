@@ -28,6 +28,8 @@ Give every worker a self-contained brief containing:
 4. Allowed command scope and shared resources to avoid. Investigation, design, and review default to no file edits; implementation and testing may run relevant commands within existing permissions.
 5. A concise report: actual changes or findings with file references, commands and results, uncertainties, and blockers. The worker must return at the checkpoint and await follow-up rather than expand scope or publish.
 
+For UI work based on a selected design, include the affected scope and design mode, authoritative reference/version, relevant source or launch/route/frame details, important states and comparison viewports, required fonts/assets, and permitted adaptations as needed. Confirm the worker can inspect the actual reference; a prose summary or inaccessible path does not substitute for available visual evidence. Include relevant untracked prototype files when preparing another checkout. Keep this proportional to the change rather than requiring a full design package. Give the reviewer the same reference and accepted adaptations, and request concrete discrepancies in the integrated result rather than a new aesthetic direction.
+
 Assign disjoint writable paths to concurrent workers. Serialize shared-file changes and checks contending for databases, ports, or containers. Reviewers inspect a frozen patch or snapshot. Workers may recommend scope or architecture changes; the parent resolves them before dependent implementation. Tell workers not to delegate further unless the parent explicitly assigns that responsibility.
 
 ## Keep the task state coherent

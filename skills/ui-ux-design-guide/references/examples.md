@@ -35,6 +35,11 @@ Better decision: distinguish draft from approved content, show meaningful change
 Weak direction: add translucent surfaces to every panel after seeing an award winner.
 Better decision: begin with supported system components, keep content readable, and customize only where the task benefits. Check current HIG and target SDK behavior. Assess reduced transparency and large text rather than judging only a promotional screenshot.
 
+## Selected prototype in an existing application
+
+Weak direction: rebuild a selected browser prototype with the application's usual cards and spacing, then call it complete because the controls work.
+Better decision: inspect the selected version, preserve its compatible composition, typography, assets, and motion while integrating real components and data. Check the app's reset, font loading, tokens, and container styles when the result drifts. Compare the integrated screen with the reference at an equivalent viewport and state, repair discrepancies, and render again. Record any required accessibility adaptation and verify functionality separately. Use accepted permissions rather than treating a mock enabled button as permission policy.
+
 ## Invocation examples
 
 “Use $ui-ux-design-guide to review this checkout flow. I only want the three most consequential usability issues. Keep the brand and layout unless the evidence calls for a change.”

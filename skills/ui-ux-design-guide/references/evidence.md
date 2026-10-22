@@ -42,6 +42,16 @@ For each example, ask: What exactly is verified? What mechanism might transfer? 
 
 Do not describe “2025/2026 design” as a single style. The reviewed examples span cultural discovery, urgent information, enterprise infrastructure, laboratory workflows, and native utilities. Their useful common ground is purposeful execution, not a mandatory palette, font, corner radius, animation, or material.
 
+## Design-fidelity sources
+
+Selected sources reviewed 2026-10-22; this does not refresh the award snapshot above.
+
+- [OpenAI, frontend designs](https://learn.chatgpt.com/use-cases/frontend-designs): supports comparing actual browser output with the reference and using existing components and tokens. This is practical guidance, not a measured fidelity guarantee.
+- [Playwright, visual comparisons](https://playwright.dev/docs/test-snapshots): documents screenshot baseline comparison under the same environment. A regression tool can detect differences; it does not prove the target baseline is correct.
+- [1D-Bench, version 3](https://arxiv.org/html/2602.18548v3), revised 2026-07-15: iterative feedback generally improves rendering success and often visual similarity on its fixed e-commerce React benchmark. It does not establish universal gains, accessibility, or production readiness.
+
+The selected-reference authority, integration, and repair workflow in this guide is original synthesis informed by these sources, not a prescribed toolchain or a claim of benchmark-level results on other tasks.
+
 ## Primary guidance used elsewhere in this guide
 
 Agent-interaction refresh, 2026-10-14:
