@@ -1,6 +1,6 @@
 # Delivery-role research basis
 
-Reviewed 2026-10-14. These are original workflow recommendations informed by primary sources, not official model job titles or measured guarantees of this team's effectiveness. Read this file for maintenance or evidence review, not on every implementation task.
+The delivery-role source table below was reviewed 2026-10-14. These are original workflow recommendations informed by primary sources, not official model job titles or measured guarantees of this team's effectiveness. Read this file for maintenance or evidence review, not on every implementation task.
 
 | Area and primary source | Application here | Boundary |
 | --- | --- | --- |
@@ -11,5 +11,9 @@ Reviewed 2026-10-14. These are original workflow recommendations informed by pri
 | Architecture: [Anthropic, Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents), 2025-09-11 | Distinct tool purposes, clear inputs, useful bounded outputs, and testing against realistic tasks. | Vendor experience; the skill does not adopt vendor-specific setup, mandatory tool counts, or claims about every model. |
 | Architecture: [OpenAI, Safety in building agents](https://developers.openai.com/api/docs/guides/agent-builder-safety), accessed 2026-10-14 | Protect instruction/data boundaries and constrain consequential tool use. | General design principles only. No Agent Builder dependency, old model pin, or blanket approval policy is imported; the page announces that product's deprecation. Structured output alone does not eliminate injection risk. |
 | Recovery: [Stripe, Idempotent requests](https://docs.stripe.com/api/idempotent_requests), accessed 2026-10-14 | A concrete example of retry identity, parameter matching, retention limits, and different API-version semantics. | Illustrates why actual provider contracts must be checked; Stripe behavior is not a universal tool guarantee. |
+
+## Terra role guidance
+
+The [official model guide](https://learn.chatgpt.com/docs/models#gpt-61-terra) positions GPT-6.1 Terra for writing, visual understanding, and supported app tasks. This informs the bounded Terra assignments in the role table; it does not establish superiority for complex implementation or consequential code review. The [Standard credit rates](https://learn.chatgpt.com/docs/pricing#token-rates) provide a cost comparison with Sol, but per-token rates do not establish task-level savings or included subscription usage. Refresh both sources for a new generation or a cost-sensitive decision, and verify availability and supported effort in the actual runtime. The skill's effort defaults are workflow recommendations, not benchmark results.
 
 Refresh a source when a relevant capability changes or observed failures challenge the guidance. Verify current tool/runtime support independently of public documentation. Preserve the user's chosen workflow and accepted policies; research does not authorize extra services, data collection, or publication.

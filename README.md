@@ -16,7 +16,7 @@ Use what fits your project. You can start with one skill; you don’t need a ful
 | [Presentation Strategy & Storytelling](skills/presentation-strategy/SKILL.md) | Shape proposals, decision decks, updates, demos, technical talks, and training around the audience, evidence, and delivery setting. |
 | [Codex Dev Team](skills/codex-dev-team/SKILL.md) | Coordinate implementation, focused helpers, independent review, and the relevant checks from the other skills. |
 
-Business Analysis, UI/UX, Project Documentation, and Presentation Strategy work independently. Codex Dev Team brings the relevant responsibilities into a development workflow, with Sol for most work, Luna for bounded tasks, and Astra for specific problems that need deeper investigation.
+Business Analysis, UI/UX, Project Documentation, and Presentation Strategy work independently. Codex Dev Team brings the relevant responsibilities into a development workflow, with Sol for substantive development, Luna for bounded mechanical and coding tasks, Terra for bounded writing, visual interpretation and comparison, and supported app tasks, and Astra for specific problems that need deeper investigation.
 
 Presentation Strategy covers the message, evidence, wording, visual direction, and delivery preparation. For PowerPoint, Google Slides, or other deck files, pair it with an available presentation-authoring skill. It does not supply its own slide renderer or require a particular vendor.
 

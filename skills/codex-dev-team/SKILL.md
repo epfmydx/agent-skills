@@ -1,6 +1,6 @@
 ---
 name: codex-dev-team
-description: "Coordinate a Codex development team for implementation, investigation, and independent review. Use when the user requests Codex Dev Team, Codex workers, or an established Codex team workflow. Sol leads and develops, Luna handles bounded work, and Astra handles justified escalation; include relevant business analysis, UI/UX, and documentation checks. Preserve an explicitly requested alternative worker workflow."
+description: "Coordinate a Codex development team for implementation, investigation, and independent review. Use when the user requests Codex Dev Team, Codex workers, or an established Codex team workflow. Sol leads and develops, Terra handles bounded writing, visual interpretation, and supported app tasks, Luna handles focused coding and mechanical work, and Astra handles justified escalation; include relevant business analysis, UI/UX, and documentation checks. Preserve an explicitly requested alternative worker workflow."
 ---
 
 # Codex Dev Team
@@ -30,12 +30,15 @@ These are workflow defaults, not measured quality or cost guarantees. Honor expl
 | Business analysis, requirements discovery, or rule clarification | Latest available Sol | `medium`; `high` for complex rules, conflicting requirements, or consequential workflows |
 | UI/UX planning or interaction design | Latest available Sol | `medium`; `high` for complex workflows; use the independent-review row for separate usability review |
 | Presentation strategy, storyboarding, or substantive slide writing | Latest available Sol | `medium`; `high` for conflicting evidence, difficult audience tradeoffs, or consequential claims |
+| Bounded writing/editing from supplied material, image or screen interpretation, or supported app tasks with clear acceptance | Latest available Terra suited to the assignment | `medium`; `low` for simple work, `high` when the bounded task needs more checking |
 | Independent review | Fresh latest available Sol | `high`; `xhigh` for subtle security, concurrency, or other consequential risks |
 | Bounded coding, regression cases, fixtures, or reproductions with clear acceptance | Latest available Luna | `high` |
 | Narrow extraction, inventories, simple summaries, or mechanical transformations | Latest available Luna | `low` (Light in some clients) |
 | Difficult architecture, cross-system decisions, or an unresolved material diagnosis | Latest available Astra | `medium` for a focused consultation; `high` for difficult tradeoffs; `xhigh` only when warranted |
 
 Sol can handle ordinary architecture and complex implementation. Escalate a specific uncertainty to Astra with the evidence, attempted approaches, constraints, alternatives, and decision needed. There is no mandatory ladder of cheaper attempts when the risk already warrants stronger judgment. If a helper lacks context, repair the brief before assuming more effort will solve it. Max and Ultra are exceptional supported options, not default roles. Effort levels are not equal capability scores across models.
+
+Use Terra for a bounded communication or visual/app assignment when current capability and cost guidance supports that choice. It can draft from accepted material or compare implementation screenshots with a selected reference and report concrete discrepancies. Keep substantive development, requirements or strategy synthesis, and consequential independent review with Sol by default; the lead retains acceptance. For app tasks, verify the worker has the required tools and existing action authority. Screenshot interpretation alone does not establish interaction or accessibility acceptance. Do not infer that an older Terra generation has the capabilities documented for a newer one.
 
 Apply model exclusions, version pins, and budget limits from the user's current request and applicable personal or project instructions before automatic selection or fallback. Keep personal preferences in those local instructions rather than embedding them in this shared skill. Do not hardcode prices or claim savings without comparable usage evidence.
 
