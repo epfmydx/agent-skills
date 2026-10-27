@@ -67,6 +67,15 @@ For ambiguous feature requests, consequential business-rule changes, or requeste
 - Resolve questions that materially change business behavior with the appropriate owner. Reuse established decisions and authorization, continue independent work, and do not turn discovery into a mandatory sign-off ceremony.
 - Pass accepted outcomes and rules to UI/UX and implementation, and maintain affected requirements through Project Documentation using the repository's conventions. Trace material rules to acceptance evidence; report unresolved decisions and their impact at completion.
 
+### Guided, example-driven requirements discovery
+
+For unresolved decisions that materially affect business behavior, user experience, scope, or an outcome the user must choose, prefer a short conversation grounded in concrete examples:
+
+- Inspect existing context first. Explain the decision with a realistic scenario, including a boundary or failure case when it exposes the tradeoff. Show meaningful alternatives and their consequences; recommend an option when evidence supports it, leaving room for a different answer.
+- Ask one focused decision question at a time through the available question mechanism. Treat this as a conversation default: honor the user's requested format, group tightly coupled questions when useful, and report outstanding blockers together when giving a status or handoff.
+- After the answer, briefly state the agreed or corrected rule and carry it into subsequent reasoning, acceptance examples, and any affected maintained documentation. Distinguish confirmed decisions from proposals and assumptions. Examples illustrate a rule; they do not prove all cases are covered or that implementation passes.
+- Reuse settled decisions and selected designs. Do not turn routine engineering choices or already authorized work into approval questions. Continue independent work while an answer is pending, but do not treat silence as agreement on a material decision or implement its dependent behavior as settled. Resume authorized execution once the relevant uncertainty is resolved.
+
 ## Architecture and implementation
 
 Choose the simplest design that satisfies the accepted behavior, existing system constraints, and relevant failure cases. Agent-assisted coding does not require adding AI to the product. Keep hard business invariants in enforceable application logic and validate generated changes against the actual integration path.
